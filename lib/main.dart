@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:newApp/pages/HomePage.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-//import 'package:newApp/shop-in/components/constants.dart';
-//import 'package:newApp/shop-in/lib/constants.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -36,15 +34,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,*/
 
         body:
-            /*Center(
-          child: Text(
-            'Hello World',
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 30.0,
-            ),
-          ),
-        ),*/
+       
             HomePage(),
       ),
     );
