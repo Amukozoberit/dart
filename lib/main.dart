@@ -23,15 +23,7 @@ class MyApp extends StatelessWidget {
         
       ),
       home: Scaffold(
-        /*appBar: AppBar(
-             title: Text(
-            'Welcome to CookHub ',
-            style: TextStyle(
-                color: Colors.white,
-                fontSize: 20.0,
-                fontWeight: FontWeight.bold),
-          ),
-          centerTitle: true,*/
+       
 
         body:
        
